@@ -1,0 +1,6 @@
+**编译i2str时加-str=c99,用于for循环初始化声明
+**打包gcc -c 生成的多个.o文件成一个.a 的库:ar -r xxx.a xx.o xx.o
+**查看.a：ar -t xxx.a
+**详细：nm xxx.a
+**编译应用程序使用静态库时，直接使用静态库：gcc userstr.c libstr.a
+**.so为动态库一般后缀

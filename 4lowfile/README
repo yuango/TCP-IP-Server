@@ -1,0 +1,10 @@
+**0openfile function:open a exist file to read from,open or creat a file to write in
+**进程用ctr+z暂停，用ps查看，用fg继续运行
+**写锁用2rlock.c文件直接修改
+**加上锁时如果进程没有结束即没解锁，则不能再进行其他加锁动作
+**不存在的PID可以用-1来表示
+**F_GETLK取得加锁信息的原理：自动试图通过加锁来获取当前加锁信息，完成后解开自动加上的锁(如果是被别人锁住，那么结构体中的内容就会变成详细加锁信息，并且设置l_pid为该加锁进程的PID
+**4.c为控制台驱动设计,显示当前终端的行列
+**使用标准输入文件(STDIN_FILENO键盘)时，能在终端界面上同步显示处输入内容，是因为利用了uart串口收发数据功能，即串口将从键盘接收到的字符再发送到终端上显示
+**ctl+z暂停进程,ctl+d退出程序,ctl+c强制停止
+**memset(void *s,int c,size_t n)向s指向的前n个字节的内存中填充c

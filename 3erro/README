@@ -1,0 +1,6 @@
+**符号链接相当与快捷方式
+**chmod中设置权限有5位(00000),第二位设置uid,第三位设置user权限，第四位group，第五位others
+**在root下执行access取得对权限是可读可写可执行，chmod无法改变root对文件对权限
+格式 ‘%s’ expects argument of type ‘char *’,所以printf(%s,argv[0])是正确的char *argv[0]
+**typedef long time_t,一般在头文件<sys/types.h>中定义
+mode_t:unsigend short int

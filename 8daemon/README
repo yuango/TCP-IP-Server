@@ -1,0 +1,3 @@
+**ps -e|grep a.out查询daemon运行状态和进程id
+**kill 杀死后台服务
+**cat ~/letter 查看内容
